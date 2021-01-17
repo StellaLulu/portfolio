@@ -11,16 +11,18 @@ export const headData = {
 export const heroData = {
   title: 'Hello, my name is ',
   name: 'Stella Chan',
-  subtitle: 'I\'m a Research Engineer in Singapore',
-  cta: 'Who are you',
+  subtitle: "I'm a Software Engineer in Singapore",
+  cta: 'About me',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpeg',
-  paragraphOne: 'A Research Engineer at Singapore Institute of Technology. Graduated from Graduate Diploma in System Analysis at National University of Singapore in 2019. With 1.5 years working experience as a Business Analyst at DBS in Hong Kong and worked as Data Automation Engineer intern at Infineon.',
-  paragraphTwo: 'A data-driven person who enjoys data crunching and believes there’s a wealth of information out there that people can make use of it to improve life and business.',
-  paragraphThree: '',
+  paragraphOne:
+    'A Research Engineer at Singapore Institute of Technology. Graduated from Graduate Diploma in System Analysis at National University of Singapore in 2019. With 1.5 years working experience as a Business Analyst at DBS in Hong Kong and worked as Data Automation Engineer intern at Infineon.',
+  paragraphTwo:
+    'A data-driven person who enjoys data crunching and believes there’s a wealth of information out there that people can make use of it to improve life and business.',
+  paragraphThree: ' ',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -28,31 +30,32 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'blog.png',
+    title: 'My Blog',
+    info:
+      'A blog to share the fragments of what I am learning, a platform to practise how to be a good writer',
+    // info2: '',
+    url: 'https://nordicfox.netlify.app/',
+    repo: 'https://github.com/stellactyy/blog', // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
+  // {
+  //   id: nanoid(),
+  //   img: 'project.jpg',
+  //   title: '',
+  //   info: '',
+  //   info2: '',
+  //   url: '',
+  //   repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  // },
+  // {
+  //   id: nanoid(),
+  //   img: 'project.jpg',
+  //   title: '',
+  //   info: '',
+  //   info2: '',
+  //   url: '',
+  //   repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  // },
 ];
 
 // CONTACT DATA
