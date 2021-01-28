@@ -41,7 +41,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'Homepage2.png',
-    title: 'Face recogniztion Application',
+    title: 'Face Recogniztion React App',
     info:
       'A React App can detect face using Clarifai API to locate a face in a image, as well as a PostgreSQL database to keep track of the number of entries a user had made.',
     info2: 'Front End: react.js; Back End: Node.js / Express.js / PostgreSQL',
