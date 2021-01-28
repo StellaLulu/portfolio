@@ -38,15 +38,16 @@ export const projectsData = [
     url: 'https://nordicfox.netlify.app/',
     repo: 'https://github.com/stellactyy/blog', // if no repo, the button will not show up
   },
-  // {
-  //   id: nanoid(),
-  //   img: 'project.jpg',
-  //   title: '',
-  //   info: '',
-  //   info2: '',
-  //   url: '',
-  //   repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  // },
+  {
+    id: nanoid(),
+    img: 'Homepage2.png',
+    title: 'Face recogniztion Application',
+    info:
+      'A React App can detect face using Clarifai API to locate a face in a image, as well as a PostgreSQL database to keep track of the number of entries a user had made.',
+    info2: 'Front End: react.js; Back End: Node.js / Express.js / PostgreSQL',
+    url: '',
+    repo: 'https://github.com/stellactyy/face-detection-website.git', // if no repo, the button will not show up
+  },
   // {
   //   id: nanoid(),
   //   img: 'project.jpg',
